@@ -12,6 +12,16 @@
 		1E1844AB2206B20E0056AE9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E1844A92206B20E0056AE9D /* Main.storyboard */; };
 		1E1844AD2206B2100056AE9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E1844AC2206B2100056AE9D /* Assets.xcassets */; };
 		1E1844B02206B2100056AE9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E1844AE2206B2100056AE9D /* LaunchScreen.storyboard */; };
+		1E1844B82206B3030056AE9D /* SwiftButton画像 in Resources */ = {isa = PBXBuildFile; fileRef = 1E1844B72206B3030056AE9D /* SwiftButton画像 */; };
+		1E1844BA2206B53D0056AE9D /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1844B92206B53D0056AE9D /* NextViewController.swift */; };
+		1E1844BC2206C9E90056AE9D /* MangaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1844BB2206C9E90056AE9D /* MangaViewController.swift */; };
+		1E1844BE2206D9BF0056AE9D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1844BD2206D9BF0056AE9D /* LoginViewController.swift */; };
+		1E1844C02206E4460056AE9D /* WebKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1844BF2206E4460056AE9D /* WebKitViewController.swift */; };
+		1E2D14B9221AD88E0057196D /* callMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1E2D14B8221AD88D0057196D /* callMusic.mp3 */; };
+		1E2D14BB221B03D40057196D /* baby.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1E2D14BA221B03D40057196D /* baby.mp3 */; };
+		1EDA4FF9220F1F7F00B564AA /* LineLikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA4FF8220F1F7F00B564AA /* LineLikeViewController.swift */; };
+		1EDA4FFC2210174600B564AA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EDA4FFB2210174600B564AA /* AVFoundation.framework */; };
+		1EF3964D2221A42B00C316A8 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF3964C2221A42B00C316A8 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		1E1844AC2206B2100056AE9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E1844AF2206B2100056AE9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E1844B12206B2100056AE9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E1844B72206B3030056AE9D /* SwiftButton画像 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "SwiftButton画像"; sourceTree = "<group>"; };
+		1E1844B92206B53D0056AE9D /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		1E1844BB2206C9E90056AE9D /* MangaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangaViewController.swift; sourceTree = SOURCE_ROOT; };
+		1E1844BD2206D9BF0056AE9D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1E1844BF2206E4460056AE9D /* WebKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebKitViewController.swift; sourceTree = SOURCE_ROOT; };
+		1E2D14B8221AD88D0057196D /* callMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = callMusic.mp3; sourceTree = "<group>"; };
+		1E2D14BA221B03D40057196D /* baby.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = baby.mp3; sourceTree = "<group>"; };
+		1EDA4FF8220F1F7F00B564AA /* LineLikeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineLikeViewController.swift; sourceTree = "<group>"; };
+		1EDA4FFB2210174600B564AA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1EF3964C2221A42B00C316A8 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EDA4FFC2210174600B564AA /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +61,7 @@
 			children = (
 				1E1844A42206B20E0056AE9D /* SwiftButton1 */,
 				1E1844A32206B20E0056AE9D /* Products */,
+				1EDA4FFA2210174600B564AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +78,29 @@
 			children = (
 				1E1844A52206B20E0056AE9D /* AppDelegate.swift */,
 				1E1844A72206B20E0056AE9D /* ViewController.swift */,
-				1E1844A92206B20E0056AE9D /* Main.storyboard */,
+				1E1844B92206B53D0056AE9D /* NextViewController.swift */,
+				1E1844BB2206C9E90056AE9D /* MangaViewController.swift */,
+				1E1844BD2206D9BF0056AE9D /* LoginViewController.swift */,
+				1E1844BF2206E4460056AE9D /* WebKitViewController.swift */,
+				1EDA4FF8220F1F7F00B564AA /* LineLikeViewController.swift */,
+				1EF3964C2221A42B00C316A8 /* MapViewController.swift */,
+				1E2D14B8221AD88D0057196D /* callMusic.mp3 */,
+				1E2D14BA221B03D40057196D /* baby.mp3 */,
 				1E1844AC2206B2100056AE9D /* Assets.xcassets */,
+				1E1844A92206B20E0056AE9D /* Main.storyboard */,
 				1E1844AE2206B2100056AE9D /* LaunchScreen.storyboard */,
 				1E1844B12206B2100056AE9D /* Info.plist */,
+				1E1844B72206B3030056AE9D /* SwiftButton画像 */,
 			);
 			path = SwiftButton1;
+			sourceTree = "<group>";
+		};
+		1EDA4FFA2210174600B564AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EDA4FFB2210174600B564AA /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,7 +161,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E1844B82206B3030056AE9D /* SwiftButton画像 in Resources */,
 				1E1844B02206B2100056AE9D /* LaunchScreen.storyboard in Resources */,
+				1E2D14BB221B03D40057196D /* baby.mp3 in Resources */,
+				1E2D14B9221AD88E0057196D /* callMusic.mp3 in Resources */,
 				1E1844AD2206B2100056AE9D /* Assets.xcassets in Resources */,
 				1E1844AB2206B20E0056AE9D /* Main.storyboard in Resources */,
 			);
@@ -135,8 +177,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EDA4FF9220F1F7F00B564AA /* LineLikeViewController.swift in Sources */,
 				1E1844A82206B20E0056AE9D /* ViewController.swift in Sources */,
+				1E1844BA2206B53D0056AE9D /* NextViewController.swift in Sources */,
+				1E1844C02206E4460056AE9D /* WebKitViewController.swift in Sources */,
 				1E1844A62206B20E0056AE9D /* AppDelegate.swift in Sources */,
+				1E1844BE2206D9BF0056AE9D /* LoginViewController.swift in Sources */,
+				1E1844BC2206C9E90056AE9D /* MangaViewController.swift in Sources */,
+				1EF3964D2221A42B00C316A8 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
