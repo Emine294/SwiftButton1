@@ -22,6 +22,9 @@
 		1EDA4FF9220F1F7F00B564AA /* LineLikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA4FF8220F1F7F00B564AA /* LineLikeViewController.swift */; };
 		1EDA4FFC2210174600B564AA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EDA4FFB2210174600B564AA /* AVFoundation.framework */; };
 		1EF3964D2221A42B00C316A8 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF3964C2221A42B00C316A8 /* MapViewController.swift */; };
+		1EF3964F2222D05300C316A8 /* TableViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF3964E2222D05300C316A8 /* TableViewController2.swift */; };
+		1EF396512222D0E000C316A8 /* TableViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF396502222D0E000C316A8 /* TableViewController3.swift */; };
+		1EF396532222D1CF00C316A8 /* TableViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF396522222D1CF00C316A8 /* TableViewController1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,14 +37,17 @@
 		1E1844B12206B2100056AE9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E1844B72206B3030056AE9D /* SwiftButton画像 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "SwiftButton画像"; sourceTree = "<group>"; };
 		1E1844B92206B53D0056AE9D /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
-		1E1844BB2206C9E90056AE9D /* MangaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangaViewController.swift; sourceTree = SOURCE_ROOT; };
+		1E1844BB2206C9E90056AE9D /* MangaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MangaViewController.swift; path = SwiftButton1/MangaViewController.swift; sourceTree = SOURCE_ROOT; };
 		1E1844BD2206D9BF0056AE9D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		1E1844BF2206E4460056AE9D /* WebKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebKitViewController.swift; sourceTree = SOURCE_ROOT; };
+		1E1844BF2206E4460056AE9D /* WebKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WebKitViewController.swift; path = SwiftButton1/WebKitViewController.swift; sourceTree = SOURCE_ROOT; };
 		1E2D14B8221AD88D0057196D /* callMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = callMusic.mp3; sourceTree = "<group>"; };
 		1E2D14BA221B03D40057196D /* baby.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = baby.mp3; sourceTree = "<group>"; };
 		1EDA4FF8220F1F7F00B564AA /* LineLikeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineLikeViewController.swift; sourceTree = "<group>"; };
 		1EDA4FFB2210174600B564AA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		1EF3964C2221A42B00C316A8 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		1EF3964E2222D05300C316A8 /* TableViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController2.swift; sourceTree = "<group>"; };
+		1EF396502222D0E000C316A8 /* TableViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController3.swift; sourceTree = "<group>"; };
+		1EF396522222D1CF00C316A8 /* TableViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,9 @@
 				1E1844BF2206E4460056AE9D /* WebKitViewController.swift */,
 				1EDA4FF8220F1F7F00B564AA /* LineLikeViewController.swift */,
 				1EF3964C2221A42B00C316A8 /* MapViewController.swift */,
+				1EF396522222D1CF00C316A8 /* TableViewController1.swift */,
+				1EF3964E2222D05300C316A8 /* TableViewController2.swift */,
+				1EF396502222D0E000C316A8 /* TableViewController3.swift */,
 				1E2D14B8221AD88D0057196D /* callMusic.mp3 */,
 				1E2D14BA221B03D40057196D /* baby.mp3 */,
 				1E1844AC2206B2100056AE9D /* Assets.xcassets */,
@@ -178,13 +187,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EDA4FF9220F1F7F00B564AA /* LineLikeViewController.swift in Sources */,
+				1EF3964F2222D05300C316A8 /* TableViewController2.swift in Sources */,
 				1E1844A82206B20E0056AE9D /* ViewController.swift in Sources */,
 				1E1844BA2206B53D0056AE9D /* NextViewController.swift in Sources */,
+				1EF396532222D1CF00C316A8 /* TableViewController1.swift in Sources */,
 				1E1844C02206E4460056AE9D /* WebKitViewController.swift in Sources */,
 				1E1844A62206B20E0056AE9D /* AppDelegate.swift in Sources */,
 				1E1844BE2206D9BF0056AE9D /* LoginViewController.swift in Sources */,
 				1E1844BC2206C9E90056AE9D /* MangaViewController.swift in Sources */,
 				1EF3964D2221A42B00C316A8 /* MapViewController.swift in Sources */,
+				1EF396512222D0E000C316A8 /* TableViewController3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
