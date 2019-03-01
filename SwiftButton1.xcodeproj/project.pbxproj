@@ -25,6 +25,8 @@
 		1EF3964F2222D05300C316A8 /* TableViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF3964E2222D05300C316A8 /* TableViewController2.swift */; };
 		1EF396512222D0E000C316A8 /* TableViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF396502222D0E000C316A8 /* TableViewController3.swift */; };
 		1EF396532222D1CF00C316A8 /* TableViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF396522222D1CF00C316A8 /* TableViewController1.swift */; };
+		1EF396552226E76500C316A8 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF396542226E76500C316A8 /* AddViewController.swift */; };
+		1EF39657222980C400C316A8 /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF39656222980C400C316A8 /* TodoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,8 @@
 		1EF3964E2222D05300C316A8 /* TableViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController2.swift; sourceTree = "<group>"; };
 		1EF396502222D0E000C316A8 /* TableViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController3.swift; sourceTree = "<group>"; };
 		1EF396522222D1CF00C316A8 /* TableViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController1.swift; sourceTree = "<group>"; };
+		1EF396542226E76500C316A8 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		1EF39656222980C400C316A8 /* TodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,7 @@
 				1EF396522222D1CF00C316A8 /* TableViewController1.swift */,
 				1EF3964E2222D05300C316A8 /* TableViewController2.swift */,
 				1EF396502222D0E000C316A8 /* TableViewController3.swift */,
+				1EF396542226E76500C316A8 /* AddViewController.swift */,
 				1E2D14B8221AD88D0057196D /* callMusic.mp3 */,
 				1E2D14BA221B03D40057196D /* baby.mp3 */,
 				1E1844AC2206B2100056AE9D /* Assets.xcassets */,
@@ -100,6 +105,7 @@
 				1E1844AE2206B2100056AE9D /* LaunchScreen.storyboard */,
 				1E1844B12206B2100056AE9D /* Info.plist */,
 				1E1844B72206B3030056AE9D /* SwiftButton画像 */,
+				1EF39656222980C400C316A8 /* TodoViewController.swift */,
 			);
 			path = SwiftButton1;
 			sourceTree = "<group>";
@@ -188,9 +194,11 @@
 			files = (
 				1EDA4FF9220F1F7F00B564AA /* LineLikeViewController.swift in Sources */,
 				1EF3964F2222D05300C316A8 /* TableViewController2.swift in Sources */,
+				1EF396552226E76500C316A8 /* AddViewController.swift in Sources */,
 				1E1844A82206B20E0056AE9D /* ViewController.swift in Sources */,
 				1E1844BA2206B53D0056AE9D /* NextViewController.swift in Sources */,
 				1EF396532222D1CF00C316A8 /* TableViewController1.swift in Sources */,
+				1EF39657222980C400C316A8 /* TodoViewController.swift in Sources */,
 				1E1844C02206E4460056AE9D /* WebKitViewController.swift in Sources */,
 				1E1844A62206B20E0056AE9D /* AppDelegate.swift in Sources */,
 				1E1844BE2206D9BF0056AE9D /* LoginViewController.swift in Sources */,
