@@ -29,6 +29,8 @@ class AddViewController: UIViewController , UITextFieldDelegate{
         
         array.append(textField.text!)
         UserDefaults.standard.set(array, forKey: "todo")
+        
+        self.navigationController?.popViewController(animated: true)
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {

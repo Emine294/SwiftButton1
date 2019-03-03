@@ -15,14 +15,21 @@ class TodoViewController: UIViewController, UITableViewDelegate,UITableViewDataS
     
     var resultArray = [String]()
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        tableView.delegate = self
+        tableView.dataSource = self
+    }
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        if UserDefaults.standard.object(forKey: "todo")
-        != nil {
+        if UserDefaults.standard.object(forKey: "todo") != nil {
             resultArray = UserDefaults.standard.object(forKey: "todo") as! [String]
         }
         
+        tableView.reloadData()
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -46,11 +53,16 @@ class TodoViewController: UIViewController, UITableViewDelegate,UITableViewDataS
         return 100
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        tableView.delegate = self
-        tableView.dataSource = self
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        
+        if editingStyle == .delete{
+            
+            resultArray.remove(at: indexPath.row)
+            
+            UserDefaults.standard.set(resultArray, forKey: "todo")
+            
+            tableView.reloadData()
+        }
     }
     
 
