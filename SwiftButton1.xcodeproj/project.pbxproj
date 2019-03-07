@@ -19,6 +19,10 @@
 		1E1844C02206E4460056AE9D /* WebKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1844BF2206E4460056AE9D /* WebKitViewController.swift */; };
 		1E2D14B9221AD88E0057196D /* callMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1E2D14B8221AD88D0057196D /* callMusic.mp3 */; };
 		1E2D14BB221B03D40057196D /* baby.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1E2D14BA221B03D40057196D /* baby.mp3 */; };
+		1E67B405222BD30B0092ECB3 /* bird.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E67B403222BD30B0092ECB3 /* bird.jpg */; };
+		1E67B406222BD30B0092ECB3 /* sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1E67B404222BD30B0092ECB3 /* sound.wav */; };
+		1E67B408222BD39D0092ECB3 /* PushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E67B407222BD39D0092ECB3 /* PushViewController.swift */; };
+		1E67B40A222BD9A00092ECB3 /* PushViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E67B409222BD9A00092ECB3 /* PushViewController2.swift */; };
 		1EDA4FF9220F1F7F00B564AA /* LineLikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA4FF8220F1F7F00B564AA /* LineLikeViewController.swift */; };
 		1EDA4FFC2210174600B564AA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EDA4FFB2210174600B564AA /* AVFoundation.framework */; };
 		1EF3964D2221A42B00C316A8 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF3964C2221A42B00C316A8 /* MapViewController.swift */; };
@@ -44,6 +48,10 @@
 		1E1844BF2206E4460056AE9D /* WebKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WebKitViewController.swift; path = SwiftButton1/WebKitViewController.swift; sourceTree = SOURCE_ROOT; };
 		1E2D14B8221AD88D0057196D /* callMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = callMusic.mp3; sourceTree = "<group>"; };
 		1E2D14BA221B03D40057196D /* baby.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = baby.mp3; sourceTree = "<group>"; };
+		1E67B403222BD30B0092ECB3 /* bird.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bird.jpg; sourceTree = "<group>"; };
+		1E67B404222BD30B0092ECB3 /* sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound.wav; sourceTree = "<group>"; };
+		1E67B407222BD39D0092ECB3 /* PushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushViewController.swift; sourceTree = "<group>"; };
+		1E67B409222BD9A00092ECB3 /* PushViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushViewController2.swift; sourceTree = "<group>"; };
 		1EDA4FF8220F1F7F00B564AA /* LineLikeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineLikeViewController.swift; sourceTree = "<group>"; };
 		1EDA4FFB2210174600B564AA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		1EF3964C2221A42B00C316A8 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -97,15 +105,19 @@
 				1EF396522222D1CF00C316A8 /* TableViewController1.swift */,
 				1EF3964E2222D05300C316A8 /* TableViewController2.swift */,
 				1EF396502222D0E000C316A8 /* TableViewController3.swift */,
+				1EF39656222980C400C316A8 /* TodoViewController.swift */,
 				1EF396542226E76500C316A8 /* AddViewController.swift */,
+				1E67B407222BD39D0092ECB3 /* PushViewController.swift */,
+				1E67B409222BD9A00092ECB3 /* PushViewController2.swift */,
 				1E2D14B8221AD88D0057196D /* callMusic.mp3 */,
 				1E2D14BA221B03D40057196D /* baby.mp3 */,
+				1E67B403222BD30B0092ECB3 /* bird.jpg */,
+				1E67B404222BD30B0092ECB3 /* sound.wav */,
 				1E1844AC2206B2100056AE9D /* Assets.xcassets */,
 				1E1844A92206B20E0056AE9D /* Main.storyboard */,
 				1E1844AE2206B2100056AE9D /* LaunchScreen.storyboard */,
 				1E1844B12206B2100056AE9D /* Info.plist */,
 				1E1844B72206B3030056AE9D /* SwiftButton画像 */,
-				1EF39656222980C400C316A8 /* TodoViewController.swift */,
 			);
 			path = SwiftButton1;
 			sourceTree = "<group>";
@@ -181,6 +193,8 @@
 				1E2D14BB221B03D40057196D /* baby.mp3 in Resources */,
 				1E2D14B9221AD88E0057196D /* callMusic.mp3 in Resources */,
 				1E1844AD2206B2100056AE9D /* Assets.xcassets in Resources */,
+				1E67B405222BD30B0092ECB3 /* bird.jpg in Resources */,
+				1E67B406222BD30B0092ECB3 /* sound.wav in Resources */,
 				1E1844AB2206B20E0056AE9D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,11 +212,13 @@
 				1E1844A82206B20E0056AE9D /* ViewController.swift in Sources */,
 				1E1844BA2206B53D0056AE9D /* NextViewController.swift in Sources */,
 				1EF396532222D1CF00C316A8 /* TableViewController1.swift in Sources */,
+				1E67B408222BD39D0092ECB3 /* PushViewController.swift in Sources */,
 				1EF39657222980C400C316A8 /* TodoViewController.swift in Sources */,
 				1E1844C02206E4460056AE9D /* WebKitViewController.swift in Sources */,
 				1E1844A62206B20E0056AE9D /* AppDelegate.swift in Sources */,
 				1E1844BE2206D9BF0056AE9D /* LoginViewController.swift in Sources */,
 				1E1844BC2206C9E90056AE9D /* MangaViewController.swift in Sources */,
+				1E67B40A222BD9A00092ECB3 /* PushViewController2.swift in Sources */,
 				1EF3964D2221A42B00C316A8 /* MapViewController.swift in Sources */,
 				1EF396512222D0E000C316A8 /* TableViewController3.swift in Sources */,
 			);
@@ -351,6 +367,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96L8TQCRDM;
 				INFOPLIST_FILE = SwiftButton1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -368,6 +385,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96L8TQCRDM;
 				INFOPLIST_FILE = SwiftButton1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
