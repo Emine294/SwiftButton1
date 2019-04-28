@@ -23,6 +23,8 @@
 		1E67B406222BD30B0092ECB3 /* sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1E67B404222BD30B0092ECB3 /* sound.wav */; };
 		1E67B408222BD39D0092ECB3 /* PushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E67B407222BD39D0092ECB3 /* PushViewController.swift */; };
 		1E67B40A222BD9A00092ECB3 /* PushViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E67B409222BD9A00092ECB3 /* PushViewController2.swift */; };
+		1EC9A17C227440E2000C731F /* IntroSecondController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC9A17B227440E2000C731F /* IntroSecondController.swift */; };
+		1EC9A17E22744112000C731F /* IntroThirdController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC9A17D22744112000C731F /* IntroThirdController.swift */; };
 		1EDA4FF9220F1F7F00B564AA /* LineLikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA4FF8220F1F7F00B564AA /* LineLikeViewController.swift */; };
 		1EDA4FFC2210174600B564AA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EDA4FFB2210174600B564AA /* AVFoundation.framework */; };
 		1EF3964D2221A42B00C316A8 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF3964C2221A42B00C316A8 /* MapViewController.swift */; };
@@ -31,6 +33,8 @@
 		1EF396532222D1CF00C316A8 /* TableViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF396522222D1CF00C316A8 /* TableViewController1.swift */; };
 		1EF396552226E76500C316A8 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF396542226E76500C316A8 /* AddViewController.swift */; };
 		1EF39657222980C400C316A8 /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF39656222980C400C316A8 /* TodoViewController.swift */; };
+		1EF598DF22743CBE00396C3A /* IntroFirstController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF598DE22743CBE00396C3A /* IntroFirstController.swift */; };
+		25816745F1B0B44E7FDDE560 /* Pods_SwiftButton1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 496C1FFB4A0A485BC3F2FD72 /* Pods_SwiftButton1.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +56,8 @@
 		1E67B404222BD30B0092ECB3 /* sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound.wav; sourceTree = "<group>"; };
 		1E67B407222BD39D0092ECB3 /* PushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushViewController.swift; sourceTree = "<group>"; };
 		1E67B409222BD9A00092ECB3 /* PushViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushViewController2.swift; sourceTree = "<group>"; };
+		1EC9A17B227440E2000C731F /* IntroSecondController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroSecondController.swift; sourceTree = "<group>"; };
+		1EC9A17D22744112000C731F /* IntroThirdController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroThirdController.swift; sourceTree = "<group>"; };
 		1EDA4FF8220F1F7F00B564AA /* LineLikeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineLikeViewController.swift; sourceTree = "<group>"; };
 		1EDA4FFB2210174600B564AA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		1EF3964C2221A42B00C316A8 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +66,10 @@
 		1EF396522222D1CF00C316A8 /* TableViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController1.swift; sourceTree = "<group>"; };
 		1EF396542226E76500C316A8 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		1EF39656222980C400C316A8 /* TodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
+		1EF598DE22743CBE00396C3A /* IntroFirstController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroFirstController.swift; sourceTree = "<group>"; };
+		4211F47C435B92281E51FCC2 /* Pods-SwiftButton1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftButton1.debug.xcconfig"; path = "Target Support Files/Pods-SwiftButton1/Pods-SwiftButton1.debug.xcconfig"; sourceTree = "<group>"; };
+		496C1FFB4A0A485BC3F2FD72 /* Pods_SwiftButton1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftButton1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		933614BC586ED2BE31220E3D /* Pods-SwiftButton1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftButton1.release.xcconfig"; path = "Target Support Files/Pods-SwiftButton1/Pods-SwiftButton1.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +78,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EDA4FFC2210174600B564AA /* AVFoundation.framework in Frameworks */,
+				25816745F1B0B44E7FDDE560 /* Pods_SwiftButton1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +91,7 @@
 				1E1844A42206B20E0056AE9D /* SwiftButton1 */,
 				1E1844A32206B20E0056AE9D /* Products */,
 				1EDA4FFA2210174600B564AA /* Frameworks */,
+				C8264743EC25466ABA710401 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +121,9 @@
 				1EF396542226E76500C316A8 /* AddViewController.swift */,
 				1E67B407222BD39D0092ECB3 /* PushViewController.swift */,
 				1E67B409222BD9A00092ECB3 /* PushViewController2.swift */,
+				1EF598DE22743CBE00396C3A /* IntroFirstController.swift */,
+				1EC9A17B227440E2000C731F /* IntroSecondController.swift */,
+				1EC9A17D22744112000C731F /* IntroThirdController.swift */,
 				1E2D14B8221AD88D0057196D /* callMusic.mp3 */,
 				1E2D14BA221B03D40057196D /* baby.mp3 */,
 				1E67B403222BD30B0092ECB3 /* bird.jpg */,
@@ -126,8 +141,18 @@
 			isa = PBXGroup;
 			children = (
 				1EDA4FFB2210174600B564AA /* AVFoundation.framework */,
+				496C1FFB4A0A485BC3F2FD72 /* Pods_SwiftButton1.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8264743EC25466ABA710401 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4211F47C435B92281E51FCC2 /* Pods-SwiftButton1.debug.xcconfig */,
+				933614BC586ED2BE31220E3D /* Pods-SwiftButton1.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +162,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E1844B42206B2100056AE9D /* Build configuration list for PBXNativeTarget "SwiftButton1" */;
 			buildPhases = (
+				7949C1AD09A0E6620969FC27 /* [CP] Check Pods Manifest.lock */,
 				1E18449E2206B20E0056AE9D /* Sources */,
 				1E18449F2206B20E0056AE9D /* Frameworks */,
 				1E1844A02206B20E0056AE9D /* Resources */,
+				DB8E6B32585941AE64750D12 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -201,6 +228,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7949C1AD09A0E6620969FC27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftButton1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB8E6B32585941AE64750D12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftButton1/Pods-SwiftButton1-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PGEZTransition/PGEZTransition.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PGEZTransition.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftButton1/Pods-SwiftButton1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1E18449E2206B20E0056AE9D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -208,6 +282,7 @@
 			files = (
 				1EDA4FF9220F1F7F00B564AA /* LineLikeViewController.swift in Sources */,
 				1EF3964F2222D05300C316A8 /* TableViewController2.swift in Sources */,
+				1EC9A17E22744112000C731F /* IntroThirdController.swift in Sources */,
 				1EF396552226E76500C316A8 /* AddViewController.swift in Sources */,
 				1E1844A82206B20E0056AE9D /* ViewController.swift in Sources */,
 				1E1844BA2206B53D0056AE9D /* NextViewController.swift in Sources */,
@@ -219,6 +294,8 @@
 				1E1844BE2206D9BF0056AE9D /* LoginViewController.swift in Sources */,
 				1E1844BC2206C9E90056AE9D /* MangaViewController.swift in Sources */,
 				1E67B40A222BD9A00092ECB3 /* PushViewController2.swift in Sources */,
+				1EC9A17C227440E2000C731F /* IntroSecondController.swift in Sources */,
+				1EF598DF22743CBE00396C3A /* IntroFirstController.swift in Sources */,
 				1EF3964D2221A42B00C316A8 /* MapViewController.swift in Sources */,
 				1EF396512222D0E000C316A8 /* TableViewController3.swift in Sources */,
 			);
@@ -364,6 +441,7 @@
 		};
 		1E1844B52206B2100056AE9D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4211F47C435B92281E51FCC2 /* Pods-SwiftButton1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -382,6 +460,7 @@
 		};
 		1E1844B62206B2100056AE9D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 933614BC586ED2BE31220E3D /* Pods-SwiftButton1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

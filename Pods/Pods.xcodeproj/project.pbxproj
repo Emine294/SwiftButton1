@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		136C5F00BA904D99B04362AC3CCFE903 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		19892D9B30F8FB703B0FA78FA697725B /* PGEZTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4754498A1CFB8AAC46F99EE0215C634 /* PGEZTransition-dummy.m */; };
+		2261C3FB50F34DC77EDF79D2A344ADED /* Pods-SwiftButton1-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBB577A6DDC25D1EE8ED25573F8DB1C1 /* Pods-SwiftButton1-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40316C781309D04AA324A1D7D156DEDC /* PGTransformValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB38A60AFDE9F60AE90E40D99A340F5F /* PGTransformValue.swift */; };
+		78A24F64E95FC91C758FC81E15294798 /* PGTransformPushTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7AF2018C0615EEE723ECACD605C25D /* PGTransformPushTransition.swift */; };
+		9D9D8A35F016A2C552B72E7E81EE91EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		CA7EF0A2F9A46A255608AEE2AA3476E1 /* PGTransformPresentTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36441D599BC4635D4708323EED5F87E6 /* PGTransformPresentTransition.swift */; };
+		CBD07FD27E8D8DE2A24786056BB3429A /* Pods-SwiftButton1-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C8BA37C47D789C68B2B3BE5B8A550C /* Pods-SwiftButton1-dummy.m */; };
+		DBC0E4395F0C2FF1BA91BE46B3C966B0 /* PGTransformAlpha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02608FD5E12E03AA95C1FB87EF37814F /* PGTransformAlpha.swift */; };
+		E5A3EEB041014591149AD087523D0A1A /* PGTransformItemViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF88FCEC341FC9D7FE61927F05528B66 /* PGTransformItemViews.swift */; };
+		E780F39664C83AC11B5CCF624ABB3CC7 /* PGEZTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C24C3424CAFDB15544B69EC35F9229F /* PGEZTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F100479F7D9A6EB2EDFFD362A0DF03FD /* PGTransformTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5C138B716219F6455D0DBEBBB02322 /* PGTransformTransition.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2CF0AB5736C2FFD179332F1EA541EE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38530A34B784706FEBD1E0601F4AB8E4;
+			remoteInfo = PGEZTransition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01C8BA37C47D789C68B2B3BE5B8A550C /* Pods-SwiftButton1-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftButton1-dummy.m"; sourceTree = "<group>"; };
+		02608FD5E12E03AA95C1FB87EF37814F /* PGTransformAlpha.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PGTransformAlpha.swift; path = PGEZTransition/Classes/PGTransformAlpha.swift; sourceTree = "<group>"; };
+		1ED7D2C22061AEB930C1AF7A0F39C966 /* Pods-SwiftButton1.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftButton1.modulemap"; sourceTree = "<group>"; };
+		33D3199F59E39F727E19E10B39201A88 /* Pods-SwiftButton1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftButton1.release.xcconfig"; sourceTree = "<group>"; };
+		36441D599BC4635D4708323EED5F87E6 /* PGTransformPresentTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PGTransformPresentTransition.swift; path = PGEZTransition/Classes/PGTransformPresentTransition.swift; sourceTree = "<group>"; };
+		42BAE5AEF9349373E1D18861F1AD3928 /* Pods-SwiftButton1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftButton1.debug.xcconfig"; sourceTree = "<group>"; };
+		4BCD0A0E9A1F740CCC8E06E18C857330 /* PGEZTransition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PGEZTransition-prefix.pch"; sourceTree = "<group>"; };
+		618D7C955805F9637D83E274E8C5D176 /* Pods-SwiftButton1-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftButton1-frameworks.sh"; sourceTree = "<group>"; };
+		7C24C3424CAFDB15544B69EC35F9229F /* PGEZTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PGEZTransition-umbrella.h"; sourceTree = "<group>"; };
+		96127114669FD96D6ED8CFAA6DCEA924 /* PGEZTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PGEZTransition.framework; path = PGEZTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3FEDFABD6CFC68990488F6E69B5C6DB /* Pods-SwiftButton1-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftButton1-Info.plist"; sourceTree = "<group>"; };
+		AA5C138B716219F6455D0DBEBBB02322 /* PGTransformTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PGTransformTransition.swift; path = PGEZTransition/Classes/PGTransformTransition.swift; sourceTree = "<group>"; };
+		AD7AF2018C0615EEE723ECACD605C25D /* PGTransformPushTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PGTransformPushTransition.swift; path = PGEZTransition/Classes/PGTransformPushTransition.swift; sourceTree = "<group>"; };
+		BB38A60AFDE9F60AE90E40D99A340F5F /* PGTransformValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PGTransformValue.swift; path = PGEZTransition/Classes/PGTransformValue.swift; sourceTree = "<group>"; };
+		C4754498A1CFB8AAC46F99EE0215C634 /* PGEZTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PGEZTransition-dummy.m"; sourceTree = "<group>"; };
+		C6E7116C604E5312BC208AB2F4931C18 /* Pods-SwiftButton1-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftButton1-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CB675B657BD9B918E15E316E1266BA13 /* PGEZTransition-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PGEZTransition-Info.plist"; sourceTree = "<group>"; };
+		D4975BB55B702E02DF91A501D9E6CE6C /* PGEZTransition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PGEZTransition.xcconfig; sourceTree = "<group>"; };
+		DBB577A6DDC25D1EE8ED25573F8DB1C1 /* Pods-SwiftButton1-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftButton1-umbrella.h"; sourceTree = "<group>"; };
+		E02D33485DF7A752A8592C15E4E31C2C /* PGEZTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PGEZTransition.modulemap; sourceTree = "<group>"; };
+		EDF5DDEB0F183D90809317D83980C97A /* Pods-SwiftButton1-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftButton1-acknowledgements.plist"; sourceTree = "<group>"; };
+		EF88FCEC341FC9D7FE61927F05528B66 /* PGTransformItemViews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PGTransformItemViews.swift; path = PGEZTransition/Classes/PGTransformItemViews.swift; sourceTree = "<group>"; };
+		F4986F23F6BDBB78F23086AD60EA8A6E /* Pods_SwiftButton1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftButton1.framework; path = "Pods-SwiftButton1.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C48958AEF6197B35E1BB515257C3A56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				136C5F00BA904D99B04362AC3CCFE903 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCEE31DCF8177F4F0569510F393DAEB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D9D8A35F016A2C552B72E7E81EE91EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07405BA997378A9FAA2ECB2EEBC4FB9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96127114669FD96D6ED8CFAA6DCEA924 /* PGEZTransition.framework */,
+				F4986F23F6BDBB78F23086AD60EA8A6E /* Pods_SwiftButton1.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18E7D80226A03DE3F1C79B69343516E7 /* Pods-SwiftButton1 */ = {
+			isa = PBXGroup;
+			children = (
+				1ED7D2C22061AEB930C1AF7A0F39C966 /* Pods-SwiftButton1.modulemap */,
+				C6E7116C604E5312BC208AB2F4931C18 /* Pods-SwiftButton1-acknowledgements.markdown */,
+				EDF5DDEB0F183D90809317D83980C97A /* Pods-SwiftButton1-acknowledgements.plist */,
+				01C8BA37C47D789C68B2B3BE5B8A550C /* Pods-SwiftButton1-dummy.m */,
+				618D7C955805F9637D83E274E8C5D176 /* Pods-SwiftButton1-frameworks.sh */,
+				A3FEDFABD6CFC68990488F6E69B5C6DB /* Pods-SwiftButton1-Info.plist */,
+				DBB577A6DDC25D1EE8ED25573F8DB1C1 /* Pods-SwiftButton1-umbrella.h */,
+				42BAE5AEF9349373E1D18861F1AD3928 /* Pods-SwiftButton1.debug.xcconfig */,
+				33D3199F59E39F727E19E10B39201A88 /* Pods-SwiftButton1.release.xcconfig */,
+			);
+			name = "Pods-SwiftButton1";
+			path = "Target Support Files/Pods-SwiftButton1";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B7719F3475747D1C7CB2021F9B4632C6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E02D33485DF7A752A8592C15E4E31C2C /* PGEZTransition.modulemap */,
+				D4975BB55B702E02DF91A501D9E6CE6C /* PGEZTransition.xcconfig */,
+				C4754498A1CFB8AAC46F99EE0215C634 /* PGEZTransition-dummy.m */,
+				CB675B657BD9B918E15E316E1266BA13 /* PGEZTransition-Info.plist */,
+				4BCD0A0E9A1F740CCC8E06E18C857330 /* PGEZTransition-prefix.pch */,
+				7C24C3424CAFDB15544B69EC35F9229F /* PGEZTransition-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PGEZTransition";
+			sourceTree = "<group>";
+		};
+		C578C5F113184657B9FF48526C7F602E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				18E7D80226A03DE3F1C79B69343516E7 /* Pods-SwiftButton1 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D1669B0A9E7D16BDE775A89E92B3C0B0 /* Pods */,
+				07405BA997378A9FAA2ECB2EEBC4FB9C /* Products */,
+				C578C5F113184657B9FF48526C7F602E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1669B0A9E7D16BDE775A89E92B3C0B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D341F9B54E98EBEB01ECE74A30C56714 /* PGEZTransition */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D341F9B54E98EBEB01ECE74A30C56714 /* PGEZTransition */ = {
+			isa = PBXGroup;
+			children = (
+				02608FD5E12E03AA95C1FB87EF37814F /* PGTransformAlpha.swift */,
+				EF88FCEC341FC9D7FE61927F05528B66 /* PGTransformItemViews.swift */,
+				36441D599BC4635D4708323EED5F87E6 /* PGTransformPresentTransition.swift */,
+				AD7AF2018C0615EEE723ECACD605C25D /* PGTransformPushTransition.swift */,
+				AA5C138B716219F6455D0DBEBBB02322 /* PGTransformTransition.swift */,
+				BB38A60AFDE9F60AE90E40D99A340F5F /* PGTransformValue.swift */,
+				B7719F3475747D1C7CB2021F9B4632C6 /* Support Files */,
+			);
+			name = PGEZTransition;
+			path = PGEZTransition;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		948EF9E0814F52FC38F8E48B19E75D41 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E780F39664C83AC11B5CCF624ABB3CC7 /* PGEZTransition-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE3FDAB68AF4CE7999AB571789BD42F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2261C3FB50F34DC77EDF79D2A344ADED /* Pods-SwiftButton1-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		38530A34B784706FEBD1E0601F4AB8E4 /* PGEZTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A0C9560362648A6BD3A463100AECD19 /* Build configuration list for PBXNativeTarget "PGEZTransition" */;
+			buildPhases = (
+				948EF9E0814F52FC38F8E48B19E75D41 /* Headers */,
+				E55F3F529A4BDA95C3E24A7A62F01D41 /* Sources */,
+				FCEE31DCF8177F4F0569510F393DAEB9 /* Frameworks */,
+				04A27FC7B1E8FE60AB3D13E1E828A4BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PGEZTransition;
+			productName = PGEZTransition;
+			productReference = 96127114669FD96D6ED8CFAA6DCEA924 /* PGEZTransition.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A6FE9C8543897FCB9B89E53EC3398581 /* Pods-SwiftButton1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19A17BE1538CCB19E99E518DAEA0913C /* Build configuration list for PBXNativeTarget "Pods-SwiftButton1" */;
+			buildPhases = (
+				EBE3FDAB68AF4CE7999AB571789BD42F /* Headers */,
+				E0C1D201611F17DB5868E78EA75881A6 /* Sources */,
+				5C48958AEF6197B35E1BB515257C3A56 /* Frameworks */,
+				320C8C37E75C7576032023401AE7F58C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5191FE59A22E3FD2C43DD71FAB2D8F4 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftButton1";
+			productName = "Pods-SwiftButton1";
+			productReference = F4986F23F6BDBB78F23086AD60EA8A6E /* Pods_SwiftButton1.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 07405BA997378A9FAA2ECB2EEBC4FB9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38530A34B784706FEBD1E0601F4AB8E4 /* PGEZTransition */,
+				A6FE9C8543897FCB9B89E53EC3398581 /* Pods-SwiftButton1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04A27FC7B1E8FE60AB3D13E1E828A4BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		320C8C37E75C7576032023401AE7F58C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0C1D201611F17DB5868E78EA75881A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD07FD27E8D8DE2A24786056BB3429A /* Pods-SwiftButton1-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E55F3F529A4BDA95C3E24A7A62F01D41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19892D9B30F8FB703B0FA78FA697725B /* PGEZTransition-dummy.m in Sources */,
+				DBC0E4395F0C2FF1BA91BE46B3C966B0 /* PGTransformAlpha.swift in Sources */,
+				E5A3EEB041014591149AD087523D0A1A /* PGTransformItemViews.swift in Sources */,
+				CA7EF0A2F9A46A255608AEE2AA3476E1 /* PGTransformPresentTransition.swift in Sources */,
+				78A24F64E95FC91C758FC81E15294798 /* PGTransformPushTransition.swift in Sources */,
+				F100479F7D9A6EB2EDFFD362A0DF03FD /* PGTransformTransition.swift in Sources */,
+				40316C781309D04AA324A1D7D156DEDC /* PGTransformValue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5191FE59A22E3FD2C43DD71FAB2D8F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PGEZTransition;
+			target = 38530A34B784706FEBD1E0601F4AB8E4 /* PGEZTransition */;
+			targetProxy = A2CF0AB5736C2FFD179332F1EA541EE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3CE39A825F5C849D7D7998E3A8D21EDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4975BB55B702E02DF91A501D9E6CE6C /* PGEZTransition.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PGEZTransition/PGEZTransition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PGEZTransition/PGEZTransition-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PGEZTransition/PGEZTransition.modulemap";
+				PRODUCT_MODULE_NAME = PGEZTransition;
+				PRODUCT_NAME = PGEZTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		54172FE82C568D5E284521AE60E5E3F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42BAE5AEF9349373E1D18861F1AD3928 /* Pods-SwiftButton1.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftButton1/Pods-SwiftButton1-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftButton1/Pods-SwiftButton1.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		77A755CFA5914F2E71620400F4EE2F1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33D3199F59E39F727E19E10B39201A88 /* Pods-SwiftButton1.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftButton1/Pods-SwiftButton1-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftButton1/Pods-SwiftButton1.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A105C1752A0A49B30ED621B71E226CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C1391485F05B41BD35738A433056B7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F13C79EAA9BFFC72BBFEE55479721588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4975BB55B702E02DF91A501D9E6CE6C /* PGEZTransition.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PGEZTransition/PGEZTransition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PGEZTransition/PGEZTransition-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PGEZTransition/PGEZTransition.modulemap";
+				PRODUCT_MODULE_NAME = PGEZTransition;
+				PRODUCT_NAME = PGEZTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19A17BE1538CCB19E99E518DAEA0913C /* Build configuration list for PBXNativeTarget "Pods-SwiftButton1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54172FE82C568D5E284521AE60E5E3F2 /* Debug */,
+				77A755CFA5914F2E71620400F4EE2F1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A0C9560362648A6BD3A463100AECD19 /* Build configuration list for PBXNativeTarget "PGEZTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CE39A825F5C849D7D7998E3A8D21EDF /* Debug */,
+				F13C79EAA9BFFC72BBFEE55479721588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1391485F05B41BD35738A433056B7FA /* Debug */,
+				A105C1752A0A49B30ED621B71E226CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
