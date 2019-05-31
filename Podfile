@@ -8,5 +8,13 @@ target 'SwiftButton1' do
   # Pods for SwiftButton1
 
 pod 'PGEZTransition'
+pod 'Firebase/Core'
+pod 'Firebase/Firestore'
+pod 'Firebase/Storage'
+pod 'Firebase/Auth'
+pod 'FirebaseDatabase'
+pod 'LineSDK', '~> 4.1.1'
+pod 'SDWebImage/WebP'
+
 
 end

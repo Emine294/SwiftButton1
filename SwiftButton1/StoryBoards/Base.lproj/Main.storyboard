@@ -133,7 +133,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="38s-br-lA6">
                                 <rect key="frame" x="193" y="479" width="70" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.3689651511" green="1" blue="0.4588702757" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.57380741830000004" green="0.56553578380000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Cocoa">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
@@ -152,6 +152,39 @@
                                     <segue destination="lBf-1f-2gz" kind="presentation" id="tSP-FY-oTQ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rmH-zg-m7X">
+                                <rect key="frame" x="271" y="323" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="InstaUp">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Qli-sr-6Po" kind="presentation" id="59p-Jo-pdI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jdx-wq-NTj">
+                                <rect key="frame" x="271" y="401" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Camera">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="spA-Zq-FQE" kind="presentation" id="GKq-TM-pKv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pZG-9k-X8T">
+                                <rect key="frame" x="271" y="479" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Firebase">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="87s-5n-Xig" kind="presentation" id="Psu-n2-Cyr"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -162,7 +195,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-30" y="-75"/>
+            <point key="canvasLocation" x="-295" y="-100"/>
         </scene>
         <!--Intro First Controller-->
         <scene sceneID="Xs8-VS-yZh">
@@ -1134,6 +1167,30 @@
             </objects>
             <point key="canvasLocation" x="3191.1999999999998" y="-75.112443778110944"/>
         </scene>
+        <!--InstaUp-->
+        <scene sceneID="l9c-2w-z4B">
+            <objects>
+                <viewControllerPlaceholder storyboardName="InstaUp" id="Qli-sr-6Po" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Sy-iF-sGv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="481" y="-403"/>
+        </scene>
+        <!--Camera-->
+        <scene sceneID="iWk-Zz-cWj">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Camera" id="spA-Zq-FQE" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eUt-qL-zgB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304" y="-661"/>
+        </scene>
+        <!--Firebase-->
+        <scene sceneID="cwY-LL-1NN">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Firebase" id="87s-5n-Xig" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xQP-tD-ioq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="255" y="65"/>
+        </scene>
         <!--NextView-->
         <scene sceneID="l7w-dy-c4N">
             <objects>
@@ -1166,13 +1223,13 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k2n-C2-mYf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1239" y="143"/>
+            <point key="canvasLocation" x="1018" y="-75"/>
         </scene>
     </scenes>
     <resources>
         <image name="Plus_206460" width="128" height="128"/>
         <image name="backImageTableView" width="1338" height="1920"/>
-        <image name="background" width="1280" height="1920"/>
+        <image name="background" width="1080" height="1920"/>
         <image name="beach" width="853" height="1280"/>
         <image name="call" width="128" height="128"/>
         <image name="callplay1" width="665" height="1182"/>

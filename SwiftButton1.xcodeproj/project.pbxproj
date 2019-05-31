@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E00B0302297EE3E0006028A /* InstaUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E00B02F2297EE3E0006028A /* InstaUp.storyboard */; };
+		1E00B03222982F5A0006028A /* InstaUp1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E00B03122982F5A0006028A /* InstaUp1ViewController.swift */; };
+		1E00B0342298DE210006028A /* Camera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E00B0332298DE210006028A /* Camera.storyboard */; };
+		1E00B0362298E1C80006028A /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E00B0352298E1C80006028A /* CameraViewController.swift */; };
 		1E1844A62206B20E0056AE9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1844A52206B20E0056AE9D /* AppDelegate.swift */; };
 		1E1844A82206B20E0056AE9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1844A72206B20E0056AE9D /* ViewController.swift */; };
 		1E1844AB2206B20E0056AE9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E1844A92206B20E0056AE9D /* Main.storyboard */; };
@@ -18,6 +22,12 @@
 		1E1844C02206E4460056AE9D /* WebKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1844BF2206E4460056AE9D /* WebKitViewController.swift */; };
 		1E2D14B9221AD88E0057196D /* callMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1E2D14B8221AD88D0057196D /* callMusic.mp3 */; };
 		1E2D14BB221B03D40057196D /* baby.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1E2D14BA221B03D40057196D /* baby.mp3 */; };
+		1E4556D0229E3F9500A96817 /* Firebase.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E4556CF229E3F9500A96817 /* Firebase.storyboard */; };
+		1E4556D2229EBB3200A96817 /* Firebase1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4556D1229EBB3200A96817 /* Firebase1ViewController.swift */; };
+		1E4556D4229EBFF300A96817 /* TimeLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4556D3229EBFF300A96817 /* TimeLineViewController.swift */; };
+		1E4556D6229EC4EF00A96817 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4556D5229EC4EF00A96817 /* Post.swift */; };
+		1E4556D8229FADC200A96817 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4556D7229FADC200A96817 /* PostViewController.swift */; };
+		1E4556DA229FB07800A96817 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E4556D9229FB07700A96817 /* GoogleService-Info.plist */; };
 		1E67B405222BD30B0092ECB3 /* bird.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E67B403222BD30B0092ECB3 /* bird.jpg */; };
 		1E67B406222BD30B0092ECB3 /* sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1E67B404222BD30B0092ECB3 /* sound.wav */; };
 		1E67B408222BD39D0092ECB3 /* PushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E67B407222BD39D0092ECB3 /* PushViewController.swift */; };
@@ -31,6 +41,8 @@
 		1ED16C482276F8C60054C833 /* WunderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED16C472276F8C60054C833 /* WunderViewController.swift */; };
 		1EDA4FF9220F1F7F00B564AA /* LineLikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA4FF8220F1F7F00B564AA /* LineLikeViewController.swift */; };
 		1EDA4FFC2210174600B564AA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EDA4FFB2210174600B564AA /* AVFoundation.framework */; };
+		1EE95EC9229C42AE0018C34E /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE95EC8229C42AE0018C34E /* FilterViewController.swift */; };
+		1EE95ECB229D658B0018C34E /* SNSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE95ECA229D658B0018C34E /* SNSViewController.swift */; };
 		1EF3964D2221A42B00C316A8 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF3964C2221A42B00C316A8 /* MapViewController.swift */; };
 		1EF3964F2222D05300C316A8 /* TableViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF3964E2222D05300C316A8 /* TableViewController2.swift */; };
 		1EF396512222D0E000C316A8 /* TableViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF396502222D0E000C316A8 /* TableViewController3.swift */; };
@@ -42,6 +54,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E00B02F2297EE3E0006028A /* InstaUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InstaUp.storyboard; sourceTree = "<group>"; };
+		1E00B03122982F5A0006028A /* InstaUp1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaUp1ViewController.swift; sourceTree = "<group>"; };
+		1E00B0332298DE210006028A /* Camera.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Camera.storyboard; sourceTree = "<group>"; };
+		1E00B0352298E1C80006028A /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		1E1844A22206B20E0056AE9D /* SwiftButton1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftButton1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E1844A52206B20E0056AE9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E1844A72206B20E0056AE9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +71,12 @@
 		1E1844BF2206E4460056AE9D /* WebKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WebKitViewController.swift; path = SwiftButton1/WebKitViewController.swift; sourceTree = SOURCE_ROOT; };
 		1E2D14B8221AD88D0057196D /* callMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = callMusic.mp3; sourceTree = "<group>"; };
 		1E2D14BA221B03D40057196D /* baby.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = baby.mp3; sourceTree = "<group>"; };
+		1E4556CF229E3F9500A96817 /* Firebase.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Firebase.storyboard; sourceTree = "<group>"; };
+		1E4556D1229EBB3200A96817 /* Firebase1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firebase1ViewController.swift; sourceTree = "<group>"; };
+		1E4556D3229EBFF300A96817 /* TimeLineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineViewController.swift; sourceTree = "<group>"; };
+		1E4556D5229EC4EF00A96817 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		1E4556D7229FADC200A96817 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		1E4556D9229FB07700A96817 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1E67B403222BD30B0092ECB3 /* bird.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bird.jpg; sourceTree = "<group>"; };
 		1E67B404222BD30B0092ECB3 /* sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound.wav; sourceTree = "<group>"; };
 		1E67B407222BD39D0092ECB3 /* PushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +90,8 @@
 		1ED16C472276F8C60054C833 /* WunderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WunderViewController.swift; sourceTree = "<group>"; };
 		1EDA4FF8220F1F7F00B564AA /* LineLikeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineLikeViewController.swift; sourceTree = "<group>"; };
 		1EDA4FFB2210174600B564AA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1EE95EC8229C42AE0018C34E /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		1EE95ECA229D658B0018C34E /* SNSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNSViewController.swift; sourceTree = "<group>"; };
 		1EF3964C2221A42B00C316A8 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		1EF3964E2222D05300C316A8 /* TableViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController2.swift; sourceTree = "<group>"; };
 		1EF396502222D0E000C316A8 /* TableViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController3.swift; sourceTree = "<group>"; };
@@ -132,6 +156,10 @@
 				1EF598DE22743CBE00396C3A /* IntroFirstController.swift */,
 				1EC9A17B227440E2000C731F /* IntroSecondController.swift */,
 				1EC9A17D22744112000C731F /* IntroThirdController.swift */,
+				1ED16C432276F8280054C833 /* WunderNextViewController.swift */,
+				1ED16C452276F8470054C833 /* WunderSettingViewController.swift */,
+				1ED16C472276F8C60054C833 /* WunderViewController.swift */,
+				1E00B03122982F5A0006028A /* InstaUp1ViewController.swift */,
 				1E2D14B8221AD88D0057196D /* callMusic.mp3 */,
 				1E2D14BA221B03D40057196D /* baby.mp3 */,
 				1E67B403222BD30B0092ECB3 /* bird.jpg */,
@@ -140,9 +168,14 @@
 				1ED16C402275FF200054C833 /* StoryBoards */,
 				1E1844B12206B2100056AE9D /* Info.plist */,
 				1E1844B72206B3030056AE9D /* SwiftButton画像 */,
-				1ED16C432276F8280054C833 /* WunderNextViewController.swift */,
-				1ED16C452276F8470054C833 /* WunderSettingViewController.swift */,
-				1ED16C472276F8C60054C833 /* WunderViewController.swift */,
+				1E00B0352298E1C80006028A /* CameraViewController.swift */,
+				1EE95EC8229C42AE0018C34E /* FilterViewController.swift */,
+				1EE95ECA229D658B0018C34E /* SNSViewController.swift */,
+				1E4556D1229EBB3200A96817 /* Firebase1ViewController.swift */,
+				1E4556D3229EBFF300A96817 /* TimeLineViewController.swift */,
+				1E4556D5229EC4EF00A96817 /* Post.swift */,
+				1E4556D7229FADC200A96817 /* PostViewController.swift */,
+				1E4556D9229FB07700A96817 /* GoogleService-Info.plist */,
 			);
 			path = SwiftButton1;
 			sourceTree = "<group>";
@@ -153,6 +186,9 @@
 				1E1844A92206B20E0056AE9D /* Main.storyboard */,
 				1ED16C3C2275F5250054C833 /* NextView.storyboard */,
 				1ED16C412276E9660054C833 /* WunderList.storyboard */,
+				1E00B02F2297EE3E0006028A /* InstaUp.storyboard */,
+				1E00B0332298DE210006028A /* Camera.storyboard */,
+				1E4556CF229E3F9500A96817 /* Firebase.storyboard */,
 			);
 			path = StoryBoards;
 			sourceTree = "<group>";
@@ -235,13 +271,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E4556DA229FB07800A96817 /* GoogleService-Info.plist in Resources */,
 				1ED16C3D2275F5250054C833 /* NextView.storyboard in Resources */,
+				1E00B0302297EE3E0006028A /* InstaUp.storyboard in Resources */,
 				1ED16C422276E9660054C833 /* WunderList.storyboard in Resources */,
+				1E4556D0229E3F9500A96817 /* Firebase.storyboard in Resources */,
 				1E1844B82206B3030056AE9D /* SwiftButton画像 in Resources */,
 				1E2D14BB221B03D40057196D /* baby.mp3 in Resources */,
 				1E2D14B9221AD88E0057196D /* callMusic.mp3 in Resources */,
 				1E1844AD2206B2100056AE9D /* Assets.xcassets in Resources */,
 				1E67B405222BD30B0092ECB3 /* bird.jpg in Resources */,
+				1E00B0342298DE210006028A /* Camera.storyboard in Resources */,
 				1E67B406222BD30B0092ECB3 /* sound.wav in Resources */,
 				1E1844AB2206B20E0056AE9D /* Main.storyboard in Resources */,
 			);
@@ -281,13 +321,33 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SwiftButton1/Pods-SwiftButton1-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/PGEZTransition/PGEZTransition.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PGEZTransition.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -304,24 +364,32 @@
 				1ED16C442276F8280054C833 /* WunderNextViewController.swift in Sources */,
 				1EDA4FF9220F1F7F00B564AA /* LineLikeViewController.swift in Sources */,
 				1EF3964F2222D05300C316A8 /* TableViewController2.swift in Sources */,
+				1E00B0362298E1C80006028A /* CameraViewController.swift in Sources */,
 				1EC9A17E22744112000C731F /* IntroThirdController.swift in Sources */,
 				1ED16C482276F8C60054C833 /* WunderViewController.swift in Sources */,
+				1E00B03222982F5A0006028A /* InstaUp1ViewController.swift in Sources */,
 				1EF396552226E76500C316A8 /* AddViewController.swift in Sources */,
+				1E4556D4229EBFF300A96817 /* TimeLineViewController.swift in Sources */,
 				1E1844A82206B20E0056AE9D /* ViewController.swift in Sources */,
 				1E1844BA2206B53D0056AE9D /* NextViewController.swift in Sources */,
 				1EF396532222D1CF00C316A8 /* TableViewController1.swift in Sources */,
+				1E4556D2229EBB3200A96817 /* Firebase1ViewController.swift in Sources */,
 				1E67B408222BD39D0092ECB3 /* PushViewController.swift in Sources */,
 				1EF39657222980C400C316A8 /* TodoViewController.swift in Sources */,
 				1E1844C02206E4460056AE9D /* WebKitViewController.swift in Sources */,
 				1E1844A62206B20E0056AE9D /* AppDelegate.swift in Sources */,
 				1E1844BE2206D9BF0056AE9D /* LoginViewController.swift in Sources */,
 				1E1844BC2206C9E90056AE9D /* MangaViewController.swift in Sources */,
+				1E4556D6229EC4EF00A96817 /* Post.swift in Sources */,
+				1EE95ECB229D658B0018C34E /* SNSViewController.swift in Sources */,
 				1ED16C462276F8470054C833 /* WunderSettingViewController.swift in Sources */,
+				1EE95EC9229C42AE0018C34E /* FilterViewController.swift in Sources */,
 				1E67B40A222BD9A00092ECB3 /* PushViewController2.swift in Sources */,
 				1EC9A17C227440E2000C731F /* IntroSecondController.swift in Sources */,
 				1EF598DF22743CBE00396C3A /* IntroFirstController.swift in Sources */,
 				1EF3964D2221A42B00C316A8 /* MapViewController.swift in Sources */,
 				1EF396512222D0E000C316A8 /* TableViewController3.swift in Sources */,
+				1E4556D8229FADC200A96817 /* PostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
